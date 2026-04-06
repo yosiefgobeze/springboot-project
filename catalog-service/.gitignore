@@ -1,0 +1,72 @@
+HELP.md
+
+# Maven / Build
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+dependency-reduced-pom.xml
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+### IDEs ###
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# SDKMAN
+.sdkmanrc
+
+# Docker
+*.tar
+
+# Node (future frontend)
+node_modules/
+
+# Coverage / reports
+coverage/
+*.lcov
+
+# Temp files
+*.tmp
+*.swp
